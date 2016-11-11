@@ -34,38 +34,8 @@
 >>* Decision Making: Equality and Relational Operators.
 >>* Assignment
 
+
 ## Session 2
->>## 1. Classes and Objects.
->>* What is a Classes, Objects and Methods
->>* Initializing Objects with Constructors.
->>* Working with Instance Variables.
->>* Declaring a Method with a Parameter.
->>* Java Program: Creating a class with method.
->>* Significance of new operator.
->>* Java Program: Creating the object using constructor
->>* Method vs Constructor.
->>* Primitive Types vs. Reference Types.
->>* Java Program: Example understanding Primitive vs Reference Types.
->>* Assignment
-
->>## 2. Primitive Wrapper classes
->>* What is a Wrapper class.
->>* Why do we use Wrapper class.
->>* What is the Wrapper class for a given primitive.
->>* Java Program: How to create a Wrapper and assign value.
->>* Java Program: Converting from Primitive to Wrapper and vice versa.
->>* Assignment
-
->>## 3. Typecasting
->>* What is a type casting.
->>* Why do we need to have type casting.
->>* Types of casting.
->>* Java Program: Demonstrate the Typecasting.
->>* Advantages of Typecasting.
->>* Warning: Precautions to be taken while typecasting.
->>* Assignment
-
-## Session 3
 >> ## 1. Control Statements: Part 1
 >>* if Single-Selection Statement.
 >>* Java Program: Example of using If Statement
@@ -98,6 +68,38 @@
 >>* Scope of Declarations.
 >>* Enhanced for Statement.
 >>* Java Program: Demonstrating
+
+## Session 3
+>>## 1. Classes and Objects.
+>>* What is a Classes, Objects and Methods
+>>* Initializing Objects with Constructors.
+>>* Working with Instance Variables.
+>>* Declaring a Method with a Parameter.
+>>* Java Program: Creating a class with method.
+>>* Significance of new operator.
+>>* Java Program: Creating the object using constructor
+>>* Method vs Constructor.
+>>* Primitive Types vs. Reference Types.
+>>* Java Program: Example understanding Primitive vs Reference Types.
+>>* Assignment
+
+>>## 2. Primitive Wrapper classes
+>>* What is a Wrapper class.
+>>* Why do we use Wrapper class.
+>>* What is the Wrapper class for a given primitive.
+>>* Java Program: How to create a Wrapper and assign value.
+>>* Java Program: Converting from Primitive to Wrapper and vice versa.
+>>* Assignment
+
+>>## 3. Typecasting
+>>* What is a type casting.
+>>* Why do we need to have type casting.
+>>* Types of casting.
+>>* Java Program: Demonstrate the Typecasting.
+>>* Advantages of Typecasting.
+>>* Warning: Precautions to be taken while typecasting.
+>>* Assignment
+
 
 ##Session 4
 >>## 1. Classes and Objects:A Deeper Look.
