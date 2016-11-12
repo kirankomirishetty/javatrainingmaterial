@@ -12,6 +12,12 @@ public class HelloWorld {
 		
 		callMethod.sayHello(args[0]+" "+args[1]);
 		callMethod.validateUserCredentials(args[0], args[1]);
+		
+		callMethod.userAction="Login";
+		callMethod.sayHello("Kiran");
+		
+		callMethod.userAction="Logout";
+		callMethod.sayHello("Kiran");
 	}
 // java HelloWorld "Java Training"
 }
