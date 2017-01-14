@@ -103,21 +103,15 @@
 
 ##Session 4
 >>## 1. Classes and Objects:A Deeper Look.
-
->>* Controlling Access to Members.
 >>* Referring to the Current Object's Members with the this Reference.
 >>* Default and No-Argument Constructors.
->>* Composition.
->>* Enumerations.
 >>* Garbage Collection and Method finalize.
 >>* static Class Members.
 >>* static Import.
 >>* final Instance Variables.
->>* What is a Package.
->>* How to create a Package.
->>* Java Program: Creating Packages.
 
 >>## 2. Access Modifiers.
+>>* Controlling Access to Members.
 >>* What is an Access Modifier.
 >>* Types of Access Modifier.
 >>* Java Program: Demonstrating all the access modifiers.
