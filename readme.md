@@ -103,6 +103,7 @@
 
 ##Session 4
 >>## 1. Classes and Objects:A Deeper Look.
+
 >>* Referring to the Current Object's Members with the this Reference.
 >>* Default and No-Argument Constructors.
 >>* Garbage Collection and Method finalize.
