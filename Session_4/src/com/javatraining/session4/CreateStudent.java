@@ -8,12 +8,12 @@ package com.javatraining.session4;
  *
  */
 public class CreateStudent {
-
+	private static Student student = new Student();
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Student student = new Student();
+		
 		
 //		student.setStudentRollNo("A1");
 		student.setStudentName("Sangeetha");
