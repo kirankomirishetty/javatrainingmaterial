@@ -23,7 +23,7 @@ public class EnumTest {
 		performCalculation(MathOperationsEnum.SUB, 10, 20);
 //		performCalculation("MUL", 10, 20);
 		
-		System.out.println("-->"+AllConstants.MathOperations.ADD.name()+"  \n"+AllConstants.EmployeeBands.B4.name());
+		System.out.println("-->"+AllConstants.MathOperations.ADD.name()+"  \n"+AllConstants.EmployeeBands.B4);
 
 	}
 	
