@@ -39,6 +39,10 @@ public class Vehicle {
 		this.gearType = gearType;
 	}
 
+	private void testMethod(){
+		System.out.println("inside test method..");
+	}
+	
 	public String getSubModel() {
 		return subModel;
 	}
@@ -64,8 +68,18 @@ public class Vehicle {
 	public String getGearType() {
 		return gearType;
 	}
-	public void configureSpeed(VehicleType vehicleType, int minSpeed, int maxSpeed) {
-		speed = new Speed(minSpeed, maxSpeed);
+	protected void configureSpeed(VehicleType vehicleType, int minSpeed, int maxSpeed) {
+		switch(vehicleType) {
+		case CAR:
+		{
+			speed = new Speed(minSpeed, maxSpeed,70);
+		}
+		case BUS:
+		{
+			speed = new Speed(minSpeed, maxSpeed,100);
+		}
+		}
+		
 		System.out.println(speed.configureSpeed(vehicleType));
 	}
 

@@ -22,6 +22,9 @@ public class Car extends Vehicle {
 	public String buildCar() {
 		return super.getModel()+" "+super.getMake()+" "+super.getNoOfSeats()+" "+super.getNoOfTiers() ;
 	}
+	public void configureCarSpped() {
+		super.configureSpeed(VehicleType.CAR,0, 150);
+	}
 	
 
 

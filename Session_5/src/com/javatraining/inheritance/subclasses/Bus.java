@@ -27,6 +27,12 @@ public class Bus extends Vehicle {
 		System.out.println("Bus seating conifugred successfully with No of 2 seats "+noOf2seats+" and 3 seats "+noof3seats);
 	}
 	
+	public void configureBusSpeed() {
+		
+		super.configureSpeed(VehicleType.BUS, 0, 250);
+//		speed = new Speed(minSpeed, maxSpeed);
+	}
+	
 	
 
 

@@ -26,7 +26,7 @@ public class TestInheritance {
 		System.out.println("Bus GearType "+ bus.getGearType());
 //		bus.buildBus();
 		bus.configureBusSeating(20, 27);
-		bus.configureSpeed(VehicleType.BUS,0,250);
+		bus.configureBusSpeed();
 		
 		System.out.println("================================");
 		Car car = new Car("TOYOTA", "2017", "4", "5", "Automatic");
@@ -38,7 +38,7 @@ public class TestInheritance {
 		System.out.println("car GearType "+ car.getGearType());
 		System.out.println("=====================");
 		System.out.println(car.buildCar());
-		car.configureSpeed(VehicleType.CAR,0,180);
+		car.configureCarSpped();
 		
 		
 
