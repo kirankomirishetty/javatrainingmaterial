@@ -1,0 +1,105 @@
+public class Employee{
+public static void main() {
+}
+public static void createEmployee(int empNo, String empName, String empSalary, String empDept) {
+
+// Insert into database...
+}
+
+}
+
+public class B4Employee{
+Employee emp = new Employee();
+public static void main() {
+emp.createEmployee(1001,"Test","1000",null);
+}
+
+}
+
+public class TechEmployee{s
+Employee emp = new Employee();
+public static void main() {
+emp.createEmployee(1001,"Test","1000","PLT");
+}
+
+}
+
+
+
+
+
+
+{
+"empNO":"1001",
+"empNmae":"TEST",
+"empSalary":"1000"
+}
+
+public class EmployeeVO{
+private int empNO;
+private String empName;
+private String empSalary;
+private String empDept
+
+/*public void setEmpNo(int empNo) {
+this.empNO = empNo
+}*/
+public void setEmpName(String empName) {
+this.empName = empName
+}
+public void setEmpSalary(String empSalary) {
+this.empSalary = empSalary
+}
+
+public int getEmpNO() {
+// this.empNO = /*write a logic to autogenerate the employee number*/
+return this.empNO;
+}
+public String getEmpName() {
+return this.empName;
+}
+public String getEmpSalary() {
+return this.empSalary;
+}
+// Add corresponding getter and setter..
+
+}
+public class Employee{
+public static void main() {
+}
+public static void createEmployee(EmployeeVO employeeVO) {
+
+// Insert into database... and update the code to add dept.....
+}
+
+}
+
+public class B4Employee{
+Employee emp = new Employee();
+public static void main() {
+EmployeeVO employeeVO = new EmployeeVO();
+//employeeVO.setEmpNO(1001);
+employeeVO.setEmpName("Test");
+employeeVO.setEmpSalary("1000");
+emp.createEmployee(employeeVO);
+}
+
+}
+
+public class TechEmployee{s
+Employee emp = new Employee();
+public static void main() {
+EmployeeVO employeeVO = new EmployeeVO();
+//employeeVO.setEmpNO(1001);
+employeeVO.setEmpName("Test");
+employeeVO.setEmpSalary("1000");
+employeeVO.setEmpDept("PLT");
+emp.createEmployee(employeeVO);
+}
+
+}
+
+
+
+
+
