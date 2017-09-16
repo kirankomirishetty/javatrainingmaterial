@@ -32,10 +32,27 @@ public class CollectionsDemo {
 		for(int i = 0; i<str.length ;i++) {
 			System.out.println(str[i]);
 		}
-		toStringEx();
-		arrayListEx();
-		System.out.println("------");
-		setEx();
+		hashCodeEx();
+//		toStringEx();
+//		arrayListEx();
+//		System.out.println("------");
+//		setEx();
+
+	}
+	
+	
+	private static void hashCodeEx() {
+		Employee emp1 = new Employee("100","Testing");
+		Employee emp2 = new Employee("100","Testing");
+		
+		System.out.println("Employee object comparision "+emp1.equals(emp2));
+		System.out.println("Emp1 hashcode "+emp1.hashCode());
+		System.out.println("Emp2 hashcode "+emp2.hashCode());
+		
+		String str1 = "Testing";
+		String str2 = "Testing";
+		
+		System.out.println(str1.hashCode()+"  "+str2.hashCode()+ " "+str1.equals(str2));
 
 	}
 	
