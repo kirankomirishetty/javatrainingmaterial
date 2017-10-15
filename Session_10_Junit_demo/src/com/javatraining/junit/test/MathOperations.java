@@ -21,7 +21,7 @@ public class MathOperations {
 		
 		switch (mathEnum) {
 		case ADD:
-			return a+b;
+			return a+b+1;
 
 		case SUB:
 			return a-b;

@@ -41,7 +41,7 @@ public class MathOperationsTest {
 	@Test
 	public void testPerformOperationAdd() {
 		double result = mathOperations.performOperation(10, 20, MathEnum.ADD);
-		Assert.assertEquals(30d,result);
+		Assert.assertEquals(31d,result);
 		
 	}
 	@Test
